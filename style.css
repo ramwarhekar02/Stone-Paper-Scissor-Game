@@ -1,0 +1,100 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'general Sans';
+}
+
+html, body { 
+    width: 100%;
+    height: 100%;
+}
+
+.page { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(59, 244, 244);
+}
+
+.main {
+    overflow: hidden;
+    border-radius: 40px;
+    background-color: white;
+    height: 80%;
+    width: 70%;
+}
+
+.top {
+    color: white;
+    background-color: darkcyan;
+    padding: 20px 30px 20px 30px;
+    justify-content: space-between;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.top h2 {
+    font-size: 20px;
+    gap: 10px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top #score {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: aqua;
+    height: 35px;
+    width: 35px;
+}
+
+.middle { 
+    background: red;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.images {
+    padding: 0px 100px;
+    justify-content: space-between;
+    background-color: green; 
+    display: flex;
+}
+
+.images img {
+    border: 2px solid grey;
+    border-radius: 50%; 
+    height: 50px;
+    width: 50px;
+}
+
+.display { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: blue;
+}
+
+.display img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.footer { 
+    background: red;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
